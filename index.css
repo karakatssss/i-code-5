@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(222, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: white;
+    width: 500px;
+    height: 230px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#email {
+    border: solid rgb(145, 145, 145);
+    border-width: 1px;
+    font-size: 12px;
+    width: 220px;
+    height: 40px;
+}
+
+button {
+    background-color: rgb(88, 173, 253);
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    box-shadow: 1px 3px rgb(162, 221, 245);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.check {
+    font-size: x-small;
+}
+
+h4 {
+    font-size: smaller;
+}
